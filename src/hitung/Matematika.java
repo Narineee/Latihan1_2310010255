@@ -15,4 +15,21 @@ public class Matematika {
     public double setPenjumlahan() {
         return bil1 + bil2;
     }
+    
+    public double setPengurangan() {
+        return bil1 - bil2;
+    }
+    
+    public double setPerkalian() {
+        return bil1 * bil2;
+    }
+    
+    public double setPembagian() {
+        if (bil2 !=0) {
+            return bil1 / bil2;
+        }else {
+            System.out.println("Error: Pembagian dengan nol!");
+            return 0;
+        }
+    }
 }
