@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package hitung;
 
-/**
- *
- * @author USER
- */
 public class MatematikaBeraksi {
-    
+   public static void main(String[] args) {
+       Matematika nia = new Matematika(5, 5);
+       
+       System.out.println("Penjumlahan : " + nia.setPenjumlahan());
+       System.out.println("Pengurangan : " + nia.setPengurangan());
+       System.out.println("Perkalian : " + nia.setPerkalian());
+       System.out.println("Pembagian : " + nia.setPembagian());
+   }
 }
