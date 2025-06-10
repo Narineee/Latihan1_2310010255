@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package hitung;
 
-/**
- *
- * @author USER
- */
 public class Matematika {
+     //variabel bil1 dan bil2 
+    private double bil1;
+    private double bil2;
     
+    //konstruktor untuk mengisi nilai
+    public Matematika(double bil1, double bil2) {
+        this.bil1 = bil1;
+        this.bil2 = bil2;
+    }
+    
+    //method setPenjumlahan yang mengembalikan hasil
+    public double setPenjumlahan() {
+        return bil1 + bil2;
+    }
 }
